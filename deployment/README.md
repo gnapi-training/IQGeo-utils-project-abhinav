@@ -41,12 +41,12 @@ These steps are required regardless of your deployment method (Kubernetes, Minik
 
 Required to download base images used in the build process.
 
-First, get your CLI secret by visiting your Harbor user profile: https://harbor.delivery.iqgeo.cloud
+First, get your CLI secret by visiting your Harbor user profile: https://harbor.gnapi.tech
 
 Then, run:
 
 ```shell
-docker login harbor.delivery.iqgeo.cloud
+docker login harbor.gnapi.tech
 ```
 
 ### Step 2: Run the `.iqgeorc.jsonc` update command

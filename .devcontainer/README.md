@@ -17,11 +17,11 @@ Ensure Docker has enough resources, in particular memory, otherwise some command
 Authenticate with harbor to access the IQGeo docker registry. To authenticate, use the docker CLI:
 
 ```shell
-docker login harbor.delivery.iqgeo.cloud
+docker login harbor.gnapi.tech
 ```
 
 To use the docker CLI to login, you will need to obtain your CLI secret (password) from your user profile found in harbor:
-https://harbor.delivery.iqgeo.cloud
+https://harbor.gnapi.tech
 
 # Setup
 

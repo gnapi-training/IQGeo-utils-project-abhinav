@@ -1,6 +1,6 @@
-ARG PRODUCT_REGISTRY=harbor.delivery.iqgeo.cloud
+ARG PRODUCT_REGISTRY=harbor.gnapi.tech
 ARG PRODUCT_REPOSITORY_PREFIX=releases_
-ARG PROJECT_REGISTRY=harbor.delivery.iqgeo.cloud
+ARG PROJECT_REGISTRY=harbor.gnapi.tech
 ARG PROJECT_REPOSITORY=myproject
 ARG BUILD_IMAGE=${PROJECT_REGISTRY}/${PROJECT_REPOSITORY}/iqgeo-myproj-build
 

@@ -157,11 +157,11 @@ Add the following line to your system's `hosts` file:
 
 #### Harbor authentication
 
-1. Find your CLI secret in your Harbor user profile at https://harbor.delivery.iqgeo.cloud.
+1. Find your CLI secret in your Harbor user profile at https://harbor.gnapi.tech.
 1. Log in to the Harbor docker registry and enter your CLI secret when prompted:
 
 ```
-docker login harbor.delivery.iqgeo.cloud
+docker login harbor.gnapi.tech
 ```
 
 #### Launch the development environment containers

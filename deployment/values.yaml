@@ -14,9 +14,9 @@ global:
 
 image:
   # Container registry host
-  # Examples: "harbor.delivery.iqgeo.cloud", "myregistry.azurecr.io"
+  # Examples: "harbor.gnapi.tech", "myregistry.azurecr.io"
   # Leave empty to use unqualified image names (pulls from default registry)
-  projectRegistry: harbor.delivery.iqgeo.cloud
+  projectRegistry: harbor.gnapi.tech
   # Repository path within the registry
   # Examples: "engineering", "myproject", "production/iqgeo"
   # Combined with projectRegistry to form the full image path prefix
