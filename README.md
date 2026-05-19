@@ -1,5 +1,33 @@
 # Template repo for an IQGeo project/product/module
 
+> **Fork Notice:** This repository is a fork of [IQGeo/utils-project-template](https://github.com/IQGeo/utils-project-template), maintained by GNAPI.
+
+---
+
+### Maintainer guide: syncing with upstream IQGeo
+
+This fork tracks the upstream IQGeo template via the `iqgeo` remote. To pull in upstream changes:
+
+```bash
+# Fetch latest changes from the upstream IQGeo remote
+git fetch iqgeo
+
+# Merge (or rebase) the upstream main branch into your working branch
+git merge iqgeo/main
+
+# Resolve any conflicts, then push to origin
+git push origin main
+```
+
+If you haven't cloned this repo with both remotes set up, add them first:
+
+```bash
+git remote add iqgeo https://github.com/IQGeo/utils-project-template.git
+git remote add origin https://github.com/gnapi-shared/IQGeo-utils-project-template.git
+```
+
+---
+
 This template provides a starting point for creating a new IQGeo project/product/module.
 It includes the following:
 
