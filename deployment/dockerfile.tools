@@ -1,4 +1,4 @@
-ARG PRODUCT_REGISTRY=harbor.gnapi.tech
+ARG PRODUCT_REGISTRY=harbor.gnapi.tech/iqgeo
 ARG PRODUCT_REPOSITORY_PREFIX=releases_
 ARG PROJECT_REGISTRY=harbor.gnapi.tech
 ARG PROJECT_REPOSITORY=myproject
