@@ -1,0 +1,5 @@
+{
+    "DialogPlugin": {
+        "title": "Edit"
+    }
+}
