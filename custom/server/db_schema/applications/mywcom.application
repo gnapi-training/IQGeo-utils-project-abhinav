@@ -1,0 +1,58 @@
+{
+   "name": "mywcom",
+   "external_name": "Comms",
+   "description": "Communications network system-of-record",
+   "javascript_file": "modules/comms/js/main.mywcom.js",
+   "image_url": "images/application_standard.png",
+   "for_online_app": true,
+   "for_native_app": true,
+   "layers": [
+      "Google",
+      "Google Hybrid",
+      "Google Sat",
+      "None",
+      "Notes",
+      "iqgapp_markup_layer",
+      "mywcom_cable_segments",
+      "mywcom_cables",
+      "mywcom_circuits",
+      "mywcom_coax_cables",
+      {
+         "name": "mywcom_coax_cables_offset",
+         "snap": true
+      },
+      "mywcom_coax_equipment",
+      {
+         "name": "mywcom_coax_equipment_offset",
+         "snap": true
+      },
+      "mywcom_conduit_runs",
+      "mywcom_conduits",
+      "mywcom_copper_cables",
+      {
+         "name": "mywcom_copper_cables_offset",
+         "snap": true
+      },
+      "mywcom_copper_equipment",
+      {
+         "name": "mywcom_copper_equipment_offset",
+         "snap": true
+      },
+      "mywcom_data_block",
+      "mywcom_equipment",
+      {
+         "name": "mywcom_fiber_cables_offset",
+         "snap": true
+      },
+      {
+         "name": "mywcom_fiber_equipment_offset",
+         "snap": true
+      },
+      "mywcom_line_of_count",
+      "mywcom_mixed_equipment",
+      {
+         "name": "mywcom_structures",
+         "snap": true
+      }
+   ]
+}

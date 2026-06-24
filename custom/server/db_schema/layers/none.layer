@@ -1,0 +1,13 @@
+{
+   "name": "None",
+   "display_name": "None",
+   "category": "basemap",
+   "description": "Grey background",
+   "datasource": "built_in",
+   "spec": {
+      "mapType": "Blank"
+   },
+   "transparency": 0,
+   "min_scale": 1,
+   "max_scale": 20
+}

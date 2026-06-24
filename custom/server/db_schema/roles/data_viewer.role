@@ -1,0 +1,7 @@
+{
+   "name": "Data Viewer",
+   "description": "View data",
+   "permissions": {
+      "standard": []
+   }
+}

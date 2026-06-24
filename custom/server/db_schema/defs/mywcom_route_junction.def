@@ -1,0 +1,110 @@
+{
+   "datasource": "myworld",
+   "name": "mywcom_route_junction",
+   "external_name": "Route Junction",
+   "title": "{display_name}: [id]",
+   "short_description": null,
+   "track_changes": true,
+   "versioned": true,
+   "geom_indexed": true,
+   "editable": {
+      "insert_from_gui": false,
+      "update_from_gui": true,
+      "delete_from_gui": false
+   },
+   "editor_options": null,
+   "fields": [
+      {
+         "name": "id",
+         "external_name": "Id",
+         "type": "integer",
+         "key": true,
+         "generator": "sequence"
+      },
+      {
+         "name": "routes",
+         "external_name": "Routes",
+         "type": "reference_set",
+         "value": "select()",
+         "read_only": "true"
+      },
+      {
+         "name": "in_fiber_segments",
+         "external_name": "In Fiber Segments",
+         "type": "reference_set",
+         "value": "method(in_fiber_segments)",
+         "read_only": "true"
+      },
+      {
+         "name": "out_fiber_segments",
+         "external_name": "Out Fiber Segments",
+         "type": "reference_set",
+         "value": "method(out_fiber_segments)",
+         "read_only": "true"
+      },
+      {
+         "name": "cables",
+         "external_name": "Cables",
+         "type": "reference_set",
+         "value": "method(cables)",
+         "read_only": "true"
+      },
+      {
+         "name": "location",
+         "external_name": "Location",
+         "type": "point",
+         "mandatory": "true"
+      },
+      {
+         "name": "created_at",
+         "external_name": "Created At",
+         "type": "timestamp",
+         "generator": "now_utc",
+         "read_only": "true",
+         "viewer_class": "myw.TimeFieldViewer"
+      },
+      {
+         "name": "updated_at",
+         "external_name": "Updated At",
+         "type": "timestamp",
+         "read_only": "true",
+         "viewer_class": "myw.TimeFieldViewer"
+      },
+      {
+         "name": "create_user",
+         "external_name": "Create User",
+         "type": "string(128)",
+         "generator": "user",
+         "read_only": "true"
+      },
+      {
+         "name": "update_user",
+         "external_name": "Update User",
+         "type": "string(128)",
+         "read_only": "true"
+      },
+      {
+         "name": "sort_children",
+         "external_name": "Sort Order",
+         "type": "string()",
+         "read_only": "true",
+         "visible": "false"
+      },
+      {
+         "name": "design_id",
+         "external_name": "Design IDs",
+         "type": "string()",
+         "read_only": "true"
+      }
+   ],
+   "groups": [],
+   "searches": [],
+   "queries": [
+      {
+         "value": "route junction",
+         "description": "Route Junction",
+         "lang": "en"
+      }
+   ],
+   "filters": []
+}

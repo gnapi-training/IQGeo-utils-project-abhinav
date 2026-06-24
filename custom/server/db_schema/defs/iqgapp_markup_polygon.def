@@ -1,0 +1,71 @@
+{
+   "datasource": "myworld",
+   "name": "iqgapp_markup_polygon",
+   "external_name": "Markup Polygon",
+   "title": "{display_name}: [id]",
+   "short_description": null,
+   "track_changes": true,
+   "versioned": false,
+   "geom_indexed": true,
+   "editable": {
+      "insert_from_gui": false,
+      "update_from_gui": true,
+      "delete_from_gui": true
+   },
+   "editor_options": null,
+   "fields": [
+      {
+         "name": "id",
+         "external_name": "Id",
+         "type": "integer",
+         "key": true,
+         "generator": "sequence",
+         "visible": "false"
+      },
+      {
+         "name": "boundary",
+         "external_name": "Boundary",
+         "type": "polygon",
+         "mandatory": "true"
+      },
+      {
+         "name": "referenced_feature",
+         "external_name": "Referenced Feature",
+         "type": "reference",
+         "editor_class": "myw.SelectionReferenceFieldEditor"
+      },
+      {
+         "name": "fill_style",
+         "external_name": "Fill Style",
+         "type": "string",
+         "visible": "false"
+      },
+      {
+         "name": "line_style",
+         "external_name": "Line Style",
+         "type": "string",
+         "visible": "false"
+      },
+      {
+         "name": "owner",
+         "external_name": "Owner",
+         "type": "reference",
+         "visible": "false"
+      }
+   ],
+   "groups": [],
+   "searches": [],
+   "queries": [
+      {
+         "value": "markup polygon",
+         "description": "Markup Polygon",
+         "lang": "en"
+      }
+   ],
+   "filters": [
+      {
+         "name": "OwnerIsActive",
+         "value": "{activeDelta} =  [owner]"
+      }
+   ]
+}

@@ -1,0 +1,18 @@
+{
+   "name": "mywcom_coax_cables",
+   "display_name": "Coaxial Cables",
+   "category": "overlay",
+   "code": "mywcom_cxc",
+   "datasource": "myworld",
+   "spec": {
+      "isStatic": false,
+      "extraOptions": {},
+      "nativeAppVector": null,
+      "nativeAppMode": "switchable",
+      "rendering": "vector",
+      "jsClass": ""
+   },
+   "transparency": 0,
+   "min_scale": 14,
+   "max_scale": 22
+}

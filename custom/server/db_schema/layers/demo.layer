@@ -1,0 +1,35 @@
+{
+   "name": "demo",
+   "display_name": "Demo",
+   "category": "overlay",
+   "code": "de",
+   "datasource": "myworld",
+   "spec": {
+      "rendering": "vector",
+      "tileType": "raster",
+      "isStatic": true,
+      "useImageCanvas": true,
+      "nativeAppMode": "switchable",
+      "render_order_point_offset": 0,
+      "jsClass": null,
+      "extraOptions": null
+   },
+   "transparency": 0,
+   "min_scale": 0,
+   "max_scale": 20,
+   "render_order": 0,
+   "feature_types": [
+      {
+         "name": "network_asset",
+         "field_name": "location",
+         "min_vis": 17,
+         "max_vis": 23,
+         "point_style": "square:#ffffff:3m:#528f83"
+      },
+      {
+         "name": "office",
+         "field_name": "location",
+         "point_style": "circle:green:4:green"
+      }
+   ]
+}

@@ -1,0 +1,46 @@
+{
+   "datasource": "myworld",
+   "name": "myw_on_demand_extract",
+   "external_name": "Extract",
+   "title": "Extract: [id]",
+   "short_description": null,
+   "track_changes": false,
+   "versioned": false,
+   "geom_indexed": true,
+   "editable": false,
+   "fields": [
+      {
+         "name": "id",
+         "external_name": "Name",
+         "type": "string(64)",
+         "key": true
+      },
+      {
+         "name": "properties",
+         "external_name": "Properties",
+         "type": "string"
+      },
+      {
+         "name": "the_geom",
+         "external_name": "Boundary",
+         "type": "polygon",
+         "mandatory": "true"
+      }
+   ],
+   "groups": [],
+   "searches": [
+      {
+         "value": "{title}",
+         "description": "{title}",
+         "lang": "en"
+      }
+   ],
+   "queries": [
+      {
+         "value": "extract",
+         "description": "Extract",
+         "lang": "en"
+      }
+   ],
+   "filters": []
+}

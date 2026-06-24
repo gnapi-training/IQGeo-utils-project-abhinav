@@ -1,0 +1,49 @@
+{
+   "name": "Demo_ReadWrite",
+   "permissions": {
+      "demoapp_abhinav": [
+         "addPrivateLayers",
+         "bulkEditFeatures",
+         "createSharedBookmark",
+         "createTasks",
+         "editAnyGroup",
+         "editFeatures",
+         "editGroups",
+         "modifyLayerList",
+         "mywcom.bulkMoveFeatures",
+         "mywcom.checkMaster",
+         "mywcom.dataFixer",
+         "mywcom.editMaster",
+         "mywcom.editPortInfoSchema",
+         "mywcom.manageLaborCosts",
+         "mywcom.manageSpecifications",
+         "mywcom.publishDesign",
+         "mywcom.sortEquipment",
+         "mywcom.viewAllDeltas",
+         "persistState",
+         "saveDefaultState"
+      ],
+      "gnapi_offices": [
+         "addPrivateLayers",
+         "bulkEditFeatures",
+         "createSharedBookmark",
+         "createTasks",
+         "editAnyGroup",
+         "editFeatures",
+         "editGroups",
+         "modifyLayerList",
+         "mywcom.bulkMoveFeatures",
+         "mywcom.checkMaster",
+         "mywcom.dataFixer",
+         "mywcom.editMaster",
+         "mywcom.editPortInfoSchema",
+         "mywcom.manageLaborCosts",
+         "mywcom.manageSpecifications",
+         "mywcom.publishDesign",
+         "mywcom.sortEquipment",
+         "mywcom.viewAllDeltas",
+         "persistState",
+         "saveDefaultState"
+      ]
+   }
+}

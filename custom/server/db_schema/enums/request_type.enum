@@ -1,0 +1,22 @@
+{
+   "name": "request_type",
+   "description": null,
+   "values": [
+      {
+         "value": "General",
+         "display_value": "General"
+      },
+      {
+         "value": "Feedback",
+         "display_value": "Feedback"
+      },
+      {
+         "value": "Complaint",
+         "display_value": "Complaint"
+      },
+      {
+         "value": "Inquiry",
+         "display_value": "Inquiry"
+      }
+   ]
+}

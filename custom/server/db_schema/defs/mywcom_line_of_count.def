@@ -1,0 +1,112 @@
+{
+   "datasource": "myworld",
+   "name": "mywcom_line_of_count",
+   "external_name": "Line of Count",
+   "title": "{display_name}: [name] [status]",
+   "short_description": "[label]",
+   "track_changes": true,
+   "versioned": true,
+   "geom_indexed": true,
+   "editable": {
+      "insert_from_gui": false,
+      "update_from_gui": true,
+      "delete_from_gui": true
+   },
+   "editor_options": null,
+   "fields": [
+      {
+         "name": "id",
+         "external_name": "Id",
+         "type": "integer",
+         "key": true,
+         "generator": "sequence"
+      },
+      {
+         "name": "label",
+         "external_name": "Label",
+         "type": "string()"
+      },
+      {
+         "name": "route",
+         "external_name": "Route",
+         "type": "linestring",
+         "mandatory": "true"
+      },
+      {
+         "name": "name",
+         "external_name": "Name",
+         "type": "string()"
+      },
+      {
+         "name": "low_logical",
+         "external_name": "Low Logical",
+         "type": "integer"
+      },
+      {
+         "name": "high_logical",
+         "external_name": "High Logical",
+         "type": "integer"
+      },
+      {
+         "name": "low_physical",
+         "external_name": "Low Physical",
+         "type": "integer"
+      },
+      {
+         "name": "high_physical",
+         "external_name": "High Physical",
+         "type": "integer"
+      },
+      {
+         "name": "origin",
+         "external_name": "Origin",
+         "type": "reference_set()"
+      },
+      {
+         "name": "status",
+         "external_name": "Status",
+         "type": "string()",
+         "enum": "loc_status"
+      },
+      {
+         "name": "deleted",
+         "external_name": "Deleted",
+         "type": "boolean",
+         "default": "false"
+      },
+      {
+         "name": "stale",
+         "external_name": "Stale",
+         "type": "boolean",
+         "default": "false"
+      },
+      {
+         "name": "loc_sections",
+         "external_name": "Sections",
+         "type": "reference_set",
+         "value": "select(mywcom_line_of_count_section.line_of_count)"
+      },
+      {
+         "name": "physical",
+         "external_name": "Physical Only",
+         "type": "boolean",
+         "default": "false"
+      }
+   ],
+   "groups": [],
+   "searches": [
+      {
+         "value": "[label]",
+         "description": "{display_name} : [label]",
+         "lang": "en"
+      }
+   ],
+   "queries": [
+      {
+         "value": "line of count",
+         "description": "Line of Count",
+         "lang": "en"
+      }
+   ],
+   "filters": []
+}

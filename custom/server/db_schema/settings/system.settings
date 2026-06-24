@@ -1,0 +1,1746 @@
+[
+   {
+      "name": "core.configSettingsPages",
+      "type": "JSON",
+      "server_only": false,
+      "value": [
+         "comms.setting",
+         "core.streetview",
+         "core.system",
+         "core.advanced"
+      ]
+   },
+   {
+      "name": "core.defaultMarkerStyleHighlight",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "iconUrl": "images/circle-fill2.svg",
+         "iconAnchor": [
+            18,
+            18
+         ]
+      }
+   },
+   {
+      "name": "core.defaultMarkerStyleNormal",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "iconUrl": "images/circle-empty2.svg",
+         "iconAnchor": [
+            18,
+            18
+         ]
+      }
+   },
+   {
+      "name": "core.defaultPolygonStyleHighlight",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "color": "#FF0000",
+         "opacity": 0.5,
+         "fillColor": "#FF0000",
+         "weight": 7,
+         "fillOpacity": 0.25
+      }
+   },
+   {
+      "name": "core.defaultPolygonStyleNormal",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "color": "#0000FF",
+         "opacity": 0.5,
+         "fillColor": "#0000FF",
+         "weight": 5,
+         "fillOpacity": 0.25
+      }
+   },
+   {
+      "name": "core.defaultPolylineStyleHighlight",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "color": "#FF0000",
+         "opacity": 0.75,
+         "weight": 7
+      }
+   },
+   {
+      "name": "core.defaultPolylineStyleNormal",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "color": "#0000FF",
+         "opacity": 0.5,
+         "weight": 5
+      }
+   },
+   {
+      "name": "core.exportEncoding",
+      "type": "STRING",
+      "server_only": false,
+      "value": "utf-8"
+   },
+   {
+      "name": "core.featureDetails",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "attributeDisplayMode": "medium",
+         "exportControls": {
+            "export-to-json": true,
+            "export-to-csv": true
+         }
+      }
+   },
+   {
+      "name": "core.internetStatus.imgUrl",
+      "type": "STRING",
+      "server_only": false,
+      "value": "https://www.google.com/images/google_favicon_128.png"
+   },
+   {
+      "name": "core.language",
+      "type": "STRING",
+      "server_only": false,
+      "value": "en"
+   },
+   {
+      "name": "core.map.options",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "viewOptions": {
+            "enableRotation": true
+         }
+      }
+   },
+   {
+      "name": "core.overrideLogoURL",
+      "type": "STRING",
+      "server_only": false,
+      "value": ""
+   },
+   {
+      "name": "core.plugin.measureTool",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "defaultLengthUnit": "ft",
+         "defaultAreaUnit": "ft^2"
+      }
+   },
+   {
+      "name": "core.plugin.streetview",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "note": {
+            "z-orientation": 3,
+            "base": {
+               "iconUrl": "images/info32.png",
+               "iconAnchor": [
+                  16,
+                  32
+               ]
+            },
+            "bright": {
+               "iconUrl": "images/info32-bright.png",
+               "iconAnchor": [
+                  16,
+                  32
+               ]
+            }
+         }
+      }
+   },
+   {
+      "name": "core.plugin.trace.limit",
+      "type": "INTEGER",
+      "server_only": false,
+      "value": 10000
+   },
+   {
+      "name": "core.queryResultLimit",
+      "type": "INTEGER",
+      "server_only": false,
+      "value": 500
+   },
+   {
+      "name": "core.searchExamples",
+      "type": "JSON",
+      "server_only": false,
+      "value": []
+   },
+   {
+      "name": "core.units",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "length": {
+            "base_unit": "m",
+            "units": {
+               "mm": 0.001,
+               "cm": 0.01,
+               "m": 1.0,
+               "km": 1000,
+               "in": 0.0254,
+               "ft": 0.3048,
+               "yd": 0.9144,
+               "mi": 1609.344
+            }
+         },
+         "electric_potential": {
+            "base_unit": "V",
+            "units": {
+               "mV": 0.001,
+               "V": 1,
+               "kV": 1000,
+               "MV": 1000000
+            }
+         },
+         "electric_current": {
+            "base_unit": "A",
+            "units": {
+               "mA": 0.001,
+               "A": 1,
+               "kA": 1000,
+               "MA": 1000000
+            }
+         },
+         "mass": {
+            "base_unit": "kg",
+            "units": {
+               "mg": 1e-06,
+               "g": 0.001,
+               "kg": 1,
+               "t": 1000,
+               "oz": 0.0283495,
+               "lb": 0.453592
+            }
+         },
+         "power": {
+            "base_unit": "W",
+            "units": {
+               "mW": 0.001,
+               "W": 1,
+               "kW": 1000,
+               "MW": 1000000
+            }
+         },
+         "pressure": {
+            "base_unit": "Pa",
+            "units": {
+               "Pa": 1,
+               "kPa": 1000,
+               "atm": 101325.0,
+               "mbar": 100,
+               "bar": 100000,
+               "psi": 6894.7573
+            }
+         },
+         "area": {
+            "base_unit": "m^2",
+            "units": {
+               "m^2": 1,
+               "hectare": 10000,
+               "km^2": 1000000,
+               "ft^2": 0.09290304,
+               "yd^2": 0.83612736,
+               "acres": 4046.86267,
+               "mi^2": 2589988.101
+            }
+         },
+         "time": {
+            "base_unit": "s",
+            "units": {
+               "ms": 0.001,
+               "s": 1,
+               "m": 60,
+               "h": 3600,
+               "d": 86400,
+               "wk": 604800
+            }
+         },
+         "fiber_loss": {
+            "base_unit": "dB",
+            "units": {
+               "dB": 1
+            }
+         },
+         "loss_per_km": {
+            "base_unit": "dB/km",
+            "units": {
+               "dB/km": 1
+            }
+         }
+      }
+   },
+   {
+      "name": "core.unitSystem",
+      "type": "STRING",
+      "server_only": false,
+      "value": "metric"
+   },
+   {
+      "name": "iqgapp.markup.featureTypes",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "iqgapp_markup_line": {
+            "styles": {
+               "line_style": "{\"color\":\"#9013fe\",\"width\":3,\"widthUnit\":\"px\",\"lineStyle\":\"solid\", \"startStyle\":\"\",\"endStyle\":\"arrow\",\"arrowLength\":5,\"minArrowLength\":2,\"opacity\":1}"
+            },
+            "properties": {},
+            "formClass": "LinestringStyleForm",
+            "image": "modules/comms/images/markup/iqgapp_markup_line.svg"
+         },
+         "iqgapp_markup_point": {
+            "styles": {
+               "point_style": "{\"symbol\":\"x\",\"color\":\"#f5a623\",\"size\":5,\"sizeUnit\":\"m\",\"borderColor\":\"\",\"isSymbolPicker\":true,\"iconUrl\":null}"
+            },
+            "properties": {},
+            "formClass": "PointStyleForm",
+            "image": "modules/comms/images/markup/iqgapp_markup_point.svg"
+         },
+         "iqgapp_markup_text": {
+            "styles": {
+               "text_style": "{\"textProp\":\"text\",\"orientationProp\":\"myw_orientation_location\",\"color\":\"#000000\",\"size\":20,\"sizeUnit\":\"px\",\"vAlign\":\"middle\",\"hAlign\":\"center\",\"vOffset\":0,\"hOffset\":0, \"backgroundColor\":\"\", \"borderWidth\":1,\"placement\":\"point\",\"fontFamily\":\"Arial\",\"minSize\":4}"
+            },
+            "properties": {
+               "myw_offset_width": "{ dx : 0, dy : 0, width : 0 }"
+            },
+            "formClass": "LabelForm",
+            "image": "modules/comms/images/markup/iqgapp_markup_text.svg"
+         },
+         "iqgapp_markup_photo": {
+            "styles": {},
+            "properties": {},
+            "image": "modules/comms/images/markup/iqgapp_markup_photo.svg"
+         },
+         "iqgapp_markup_polygon": {
+            "styles": {
+               "fill_style": "{ \"color\" : \"#b8e986\", \"opacity\" : 0.5}",
+               "line_style": "{ \"color\" :\"#000000\", \"width\" :3, \"widthUnit\": \"px\",\"lineStyle\" : \"solid\", \"startStyle\" :\"\", \"endStyle\" : \"\", \"opacity\" :1}"
+            },
+            "properties": {},
+            "formClass": "PolygonStyleForm",
+            "image": "modules/comms/images/markup/iqgapp_markup_polygon.svg"
+         }
+      }
+   },
+   {
+      "name": "mywcom.bulkMove",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "enabled": true,
+         "selectionLimit": {
+            "max": 30,
+            "min": 1
+         }
+      }
+   },
+   {
+      "name": "mywcom.cable_offset_config",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "fiber": {
+            "offset_dis": 1.07e-05,
+            "separation_dis": 6.7e-06,
+            "tolerance": 1e-08
+         },
+         "copper": {
+            "offset_dis": 1.07e-05,
+            "separation_dis": 6.7e-06,
+            "tolerance": 1e-08
+         },
+         "coax": {
+            "offset_dis": 1.07e-05,
+            "separation_dis": 6.7e-06,
+            "tolerance": 1e-08
+         }
+      }
+   },
+   {
+      "name": "mywcom.cables",
+      "type": "JSON",
+      "server_only": false,
+      "value": {}
+   },
+   {
+      "name": "mywcom.capacity_available_status",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "strands": {
+            "enum_name": "strand_status",
+            "available_values": [
+               "Available"
+            ],
+            "used_value": "Used",
+            "other_values_to_count": [
+               "Broken",
+               "Reserved"
+            ]
+         },
+         "ports": {
+            "enum_name": "port_status",
+            "available_values": [
+               "Available"
+            ],
+            "used_value": "Used",
+            "other_values_to_count": [
+               "Broken",
+               "Reserved"
+            ]
+         }
+      }
+   },
+   {
+      "name": "mywcom.circuitReport",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "circuitFields": []
+      }
+   },
+   {
+      "name": "mywcom.circuits",
+      "type": "JSON",
+      "server_only": false,
+      "value": {}
+   },
+   {
+      "name": "mywcom.conduits",
+      "type": "JSON",
+      "server_only": false,
+      "value": {}
+   },
+   {
+      "name": "mywcom.conflictStyles",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "change": {
+            "color": "#228b22",
+            "opacity": 0.9
+         },
+         "conflict": {
+            "color": "#ff4500",
+            "opacity": 0.9
+         }
+      }
+   },
+   {
+      "name": "mywcom.connectivityReport",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "circuitFields": [
+            "name"
+         ]
+      }
+   },
+   {
+      "name": "mywcom.designs",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "network_asset": {
+            "userGroup": "user_group"
+         }
+      }
+   },
+   {
+      "name": "mywcom.editableStates",
+      "type": "JSON",
+      "server_only": false,
+      "value": []
+   },
+   {
+      "name": "mywcom.equipment",
+      "type": "JSON",
+      "server_only": false,
+      "value": {}
+   },
+   {
+      "name": "mywcom.equipment_offset_config",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "fiber": {
+            "offset_dis": 1.605e-05,
+            "tolerance": 1e-08
+         },
+         "copper": {
+            "offset_dis": 1.605e-05,
+            "tolerance": 1e-08
+         },
+         "coax": {
+            "offset_dis": 1.605e-05,
+            "tolerance": 1e-08
+         },
+         "mixed": {
+            "offset_dis": 1.605e-05,
+            "tolerance": 1e-08
+         }
+      }
+   },
+   {
+      "name": "mywcom.equipmentReport",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "featureFields": [
+            "specification"
+         ]
+      }
+   },
+   {
+      "name": "mywcom.ewl",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "conversions": [
+            {
+               "gauge": 19,
+               "ewl": 0.4
+            },
+            {
+               "gauge": 22,
+               "ewl": 0.6
+            },
+            {
+               "gauge": 24,
+               "ewl": 0.75
+            },
+            {
+               "gauge": 26,
+               "ewl": 1
+            }
+         ]
+      }
+   },
+   {
+      "name": "mywcom.fiberColors",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "blue": {
+            "color": "#0000FF",
+            "abbr": "BL",
+            "label": "Blue"
+         },
+         "brown": {
+            "color": "#A52A2A",
+            "abbr": "BN",
+            "label": "Brown"
+         },
+         "turquoise": {
+            "color": "#40E0D0",
+            "abbr": "TQ",
+            "label": "Turquoise"
+         },
+         "rose": {
+            "color": "#FFE4E1",
+            "abbr": "RO",
+            "label": "Rose"
+         },
+         "slate": {
+            "color": "#708090",
+            "abbr": "SL",
+            "label": "Slate"
+         },
+         "aqua": {
+            "color": "#00FFFF",
+            "abbr": "A",
+            "label": "Aqua"
+         },
+         "grey": {
+            "color": "#808080",
+            "abbr": "GY",
+            "label": "Grey"
+         },
+         "yellow": {
+            "color": "#FFFF00",
+            "abbr": "YL",
+            "label": "Yellow"
+         },
+         "pink": {
+            "color": "#FFC0CB",
+            "abbr": "PK",
+            "label": "Pink"
+         },
+         "green": {
+            "color": "#008000",
+            "abbr": "GN",
+            "label": "Green"
+         },
+         "violet": {
+            "color": "#EE82EE",
+            "abbr": "VT",
+            "label": "Violet"
+         },
+         "orange": {
+            "color": "#FFA500",
+            "abbr": "OR",
+            "label": "Orange"
+         },
+         "black": {
+            "color": "#000000",
+            "abbr": "BK",
+            "label": "Black"
+         },
+         "white": {
+            "color": "#FFFFFF",
+            "abbr": "WT",
+            "label": "White"
+         },
+         "transparent": {
+            "color": "#EEEEEE",
+            "abbr": "TR",
+            "label": "Transparent"
+         },
+         "red": {
+            "color": "#FF0000",
+            "abbr": "RD",
+            "label": "Red"
+         }
+      }
+   },
+   {
+      "name": "mywcom.fiberColorSchemes",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "DIN VDE 0888": {
+            "colors": [
+               {
+                  "color": "red"
+               },
+               {
+                  "color": "green"
+               },
+               {
+                  "color": "blue"
+               },
+               {
+                  "color": "yellow"
+               },
+               {
+                  "color": "white"
+               },
+               {
+                  "color": "slate"
+               },
+               {
+                  "color": "brown"
+               },
+               {
+                  "color": "violet"
+               },
+               {
+                  "color": "turquoise"
+               },
+               {
+                  "color": "black"
+               },
+               {
+                  "color": "orange"
+               },
+               {
+                  "color": "pink"
+               },
+               {
+                  "color": "red",
+                  "stripes": [
+                     "black"
+                  ]
+               },
+               {
+                  "color": "green",
+                  "stripes": [
+                     "black"
+                  ]
+               },
+               {
+                  "color": "blue",
+                  "stripes": [
+                     "black"
+                  ]
+               },
+               {
+                  "color": "yellow",
+                  "stripes": [
+                     "black"
+                  ]
+               },
+               {
+                  "color": "white",
+                  "stripes": [
+                     "black"
+                  ]
+               },
+               {
+                  "color": "slate",
+                  "stripes": [
+                     "black"
+                  ]
+               },
+               {
+                  "color": "brown",
+                  "stripes": [
+                     "black"
+                  ]
+               },
+               {
+                  "color": "violet",
+                  "stripes": [
+                     "black"
+                  ]
+               },
+               {
+                  "color": "turquoise",
+                  "stripes": [
+                     "black"
+                  ]
+               },
+               {
+                  "color": "transparent",
+                  "stripes": []
+               },
+               {
+                  "color": "orange",
+                  "stripes": [
+                     "black"
+                  ]
+               },
+               {
+                  "color": "pink",
+                  "stripes": [
+                     "black"
+                  ]
+               }
+            ],
+            "description": "DIN VDE 0888 standard color scheme"
+         },
+         "TIA-598-C": {
+            "colors": [
+               {
+                  "color": "blue"
+               },
+               {
+                  "color": "orange"
+               },
+               {
+                  "color": "green"
+               },
+               {
+                  "color": "brown"
+               },
+               {
+                  "color": "slate"
+               },
+               {
+                  "color": "white"
+               },
+               {
+                  "color": "red"
+               },
+               {
+                  "color": "black"
+               },
+               {
+                  "color": "yellow"
+               },
+               {
+                  "color": "violet"
+               },
+               {
+                  "color": "rose"
+               },
+               {
+                  "color": "aqua"
+               },
+               {
+                  "color": "blue",
+                  "stripes": [
+                     "black"
+                  ]
+               },
+               {
+                  "color": "orange",
+                  "stripes": [
+                     "black"
+                  ]
+               },
+               {
+                  "color": "green",
+                  "stripes": [
+                     "black"
+                  ]
+               },
+               {
+                  "color": "brown",
+                  "stripes": [
+                     "black"
+                  ]
+               },
+               {
+                  "color": "slate",
+                  "stripes": [
+                     "black"
+                  ]
+               },
+               {
+                  "color": "white",
+                  "stripes": [
+                     "black"
+                  ]
+               },
+               {
+                  "color": "red",
+                  "stripes": [
+                     "black"
+                  ]
+               },
+               {
+                  "color": "black",
+                  "stripes": [
+                     "yellow"
+                  ]
+               },
+               {
+                  "color": "yellow",
+                  "stripes": [
+                     "black"
+                  ]
+               },
+               {
+                  "color": "violet",
+                  "stripes": [
+                     "black"
+                  ]
+               },
+               {
+                  "color": "rose",
+                  "stripes": [
+                     "black"
+                  ]
+               },
+               {
+                  "color": "aqua",
+                  "stripes": [
+                     "black"
+                  ]
+               }
+            ],
+            "description": "TIA-598-C standard color scheme"
+         },
+         "FIN2012": {
+            "colors": [
+               {
+                  "color": "blue"
+               },
+               {
+                  "color": "white"
+               },
+               {
+                  "color": "yellow"
+               },
+               {
+                  "color": "green"
+               },
+               {
+                  "color": "grey"
+               },
+               {
+                  "color": "orange"
+               },
+               {
+                  "color": "brown"
+               },
+               {
+                  "color": "turquoise"
+               },
+               {
+                  "color": "black"
+               },
+               {
+                  "color": "violet"
+               },
+               {
+                  "color": "pink"
+               },
+               {
+                  "color": "red"
+               },
+               {
+                  "color": "blue",
+                  "stripes": [
+                     "black"
+                  ]
+               },
+               {
+                  "color": "white",
+                  "stripes": [
+                     "black"
+                  ]
+               },
+               {
+                  "color": "yellow",
+                  "stripes": [
+                     "black"
+                  ]
+               },
+               {
+                  "color": "green",
+                  "stripes": [
+                     "black"
+                  ]
+               },
+               {
+                  "color": "grey",
+                  "stripes": [
+                     "black"
+                  ]
+               },
+               {
+                  "color": "orange",
+                  "stripes": [
+                     "black"
+                  ]
+               },
+               {
+                  "color": "brown",
+                  "stripes": [
+                     "black"
+                  ]
+               },
+               {
+                  "color": "turquoise",
+                  "stripes": [
+                     "black"
+                  ]
+               },
+               {
+                  "color": "transparent",
+                  "stripes": []
+               },
+               {
+                  "color": "violet",
+                  "stripes": [
+                     "black"
+                  ]
+               },
+               {
+                  "color": "pink",
+                  "stripes": [
+                     "black"
+                  ]
+               },
+               {
+                  "color": "red",
+                  "stripes": [
+                     "black"
+                  ]
+               }
+            ],
+            "description": "FIN2012 color scheme typically used in Finland"
+         },
+         "Copper Tip Colors": {
+            "colors": [
+               {
+                  "color": "white"
+               },
+               {
+                  "color": "red"
+               },
+               {
+                  "color": "black"
+               },
+               {
+                  "color": "yellow"
+               },
+               {
+                  "color": "violet"
+               }
+            ],
+            "description": "Copper Tip Colors"
+         },
+         "Copper Ring Colors": {
+            "colors": [
+               {
+                  "color": "blue"
+               },
+               {
+                  "color": "orange"
+               },
+               {
+                  "color": "green"
+               },
+               {
+                  "color": "brown"
+               },
+               {
+                  "color": "slate"
+               }
+            ],
+            "description": "Copper Ring Colors"
+         }
+      }
+   },
+   {
+      "name": "mywcom.fiberLoss",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "cable": 0.5,
+         "splice": 0.1,
+         "mux": 4.83,
+         "connector": 0.3,
+         "terminal": 0.3,
+         "splitter": 4.83
+      }
+   },
+   {
+      "name": "mywcom.fiberReport",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "cableFields": [],
+         "circuitFields": []
+      }
+   },
+   {
+      "name": "mywcom.import_config.cdif",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "name": "CDIF",
+         "description": "IQGeo Comms Data Interchange Format (no mappings)",
+         "engine": "cdif",
+         "options": {},
+         "file_specs": [
+            "*.csv"
+         ],
+         "mappings": []
+      }
+   },
+   {
+      "name": "mywcom.import_file_types",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "gpkg": "gpkg_feature_package",
+         "sqlite": "sqlite_feature_package",
+         "zip": "file_feature_package"
+      }
+   },
+   {
+      "name": "mywcom.laborCosts",
+      "type": "JSON",
+      "server_only": false,
+      "value": {}
+   },
+   {
+      "name": "mywcom.line_of_count",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "connect_disconnect_auto_ripple": true
+      }
+   },
+   {
+      "name": "mywcom.loss",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "fiber": {
+            "cable": 0.5,
+            "splice": 0.1,
+            "mux": 4.83,
+            "connector": 0.3,
+            "terminal": 0.3,
+            "splitter": 4.83
+         },
+         "copper": {
+            "cable": {
+               "19": 0.1,
+               "20": 0.2
+            },
+            "splice": 0.1,
+            "connector": 0.3,
+            "terminal": 0.3
+         },
+         "coax": {},
+         "mixed": {}
+      }
+   },
+   {
+      "name": "mywcom.network_types",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "fiber": {
+            "segment_type": "mywcom_fiber_segment",
+            "slack_type": "mywcom_fiber_slack",
+            "connection_type": "mywcom_fiber_connection",
+            "struct_in_segments_field": "in_fiber_segments",
+            "struct_out_segments_field": "out_fiber_segments",
+            "equip_n_in_pins_field": "n_fiber_in_ports",
+            "equip_n_out_pins_field": "n_fiber_out_ports",
+            "equip_n_pins_field": "n_fiber_ports",
+            "cable_n_pins_field": "fiber_count",
+            "segment_strand_info_field": "strand_info",
+            "connections_field": "fiber_connections",
+            "splices_field": "fiber_splices",
+            "network_name": "mywcom_fiber",
+            "equip_in_ports_info_field": "fiber_in_ports_info",
+            "equip_out_ports_info_field": "fiber_out_ports_info"
+         },
+         "copper": {
+            "segment_type": "mywcom_copper_segment",
+            "slack_type": "mywcom_copper_slack",
+            "connection_type": "mywcom_copper_connection",
+            "struct_in_segments_field": "in_copper_segments",
+            "struct_out_segments_field": "out_copper_segments",
+            "equip_n_in_pins_field": "n_copper_in_ports",
+            "equip_n_out_pins_field": "n_copper_out_ports",
+            "equip_n_pins_field": "n_copper_ports",
+            "cable_n_pins_field": "copper_count",
+            "connections_field": "copper_connections",
+            "splices_field": "copper_splices",
+            "network_name": "mywcom_copper",
+            "equip_in_ports_info_field": "copper_in_ports_info",
+            "equip_out_ports_info_field": "copper_out_ports_info",
+            "segment_strand_info_field": "strand_info"
+         },
+         "coax": {
+            "segment_type": "mywcom_coax_segment",
+            "slack_type": "mywcom_coax_slack",
+            "connection_type": "mywcom_coax_connection",
+            "struct_in_segments_field": "in_coax_segments",
+            "struct_out_segments_field": "out_coax_segments",
+            "equip_n_in_pins_field": "n_coax_in_ports",
+            "equip_n_out_pins_field": "n_coax_out_ports",
+            "equip_n_pins_field": "n_coax_ports",
+            "cable_n_pins_field": "coax_count",
+            "connections_field": "coax_connections",
+            "splices_field": "coax_splices",
+            "network_name": "mywcom_coax",
+            "equip_in_ports_info_field": "coax_in_ports_info",
+            "equip_out_ports_info_field": "coax_out_ports_info",
+            "segment_strand_info_field": "strand_info"
+         }
+      }
+   },
+   {
+      "name": "mywcom.path_finder",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "max_nodes": 1000,
+         "show_partial": false,
+         "max_route_paths": 10,
+         "max_route_nodes": 1000,
+         "exclude_similar": false,
+         "similarity_threshold": 90,
+         "route_paths_only": false,
+         "cable_paths_only": false,
+         "bidirectional": false,
+         "num_back_steps": 20,
+         "max_paths_default": 5,
+         "max_dist_default": 5000,
+         "connection_cost_metres": 10,
+         "splice_closure_type": "",
+         "splice_closure_properties": {},
+         "include_as_via": true
+      }
+   },
+   {
+      "name": "mywcom.port_info",
+      "type": "JSON",
+      "server_only": false,
+      "value": [
+         {
+            "equipment_type": "default",
+            "title": "[status]",
+            "fields": [
+               {
+                  "name": "name",
+                  "external_name": "Port Name",
+                  "type": "string()"
+               },
+               {
+                  "name": "status",
+                  "external_name": "Status",
+                  "type": "string()",
+                  "enum": "port_status"
+               },
+               {
+                  "name": "priority",
+                  "external_name": "Priority",
+                  "type": "string()",
+                  "enum": "port_priority"
+               },
+               {
+                  "name": "connector",
+                  "external_name": "Connector",
+                  "type": "string()",
+                  "enum": "port_connector"
+               }
+            ]
+         },
+         {
+            "equipment_type": "fiber_patch_panel",
+            "title": "[name] : [status]",
+            "fields": [
+               {
+                  "name": "position",
+                  "external_name": "Port Position",
+                  "type": "string()"
+               },
+               {
+                  "name": "cable_type",
+                  "external_name": "Cable Type",
+                  "type": "string()"
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "name": "mywcom.port_info_enum",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "port_connector": {
+            "name": "port_connector",
+            "description": "Port Connector",
+            "values": [
+               {
+                  "value": "Square Connector",
+                  "display_value": "Square Connector"
+               },
+               {
+                  "value": "Multi Connector",
+                  "display_value": "Multi Connector"
+               },
+               {
+                  "value": "Straight Tip",
+                  "display_value": "Straight Tip"
+               },
+               {
+                  "value": "Lucent Connector",
+                  "display_value": "Lucent Connector"
+               },
+               {
+                  "value": "Ferrule Connector",
+                  "display_value": "Ferrule Connector"
+               }
+            ]
+         },
+         "port_priority": {
+            "name": "port_priority",
+            "description": "Port Priority",
+            "values": [
+               {
+                  "value": "High",
+                  "display_value": "High"
+               },
+               {
+                  "value": "Medium",
+                  "display_value": "Medium"
+               },
+               {
+                  "value": "Low",
+                  "display_value": "Low"
+               },
+               {
+                  "value": "Critical",
+                  "display_value": "Critical"
+               },
+               {
+                  "value": "Spare",
+                  "display_value": "Spare"
+               },
+               {
+                  "value": "Unknown",
+                  "display_value": "Unknown"
+               }
+            ]
+         },
+         "port_status": {
+            "name": "port_status",
+            "description": "Port Status",
+            "values": [
+               {
+                  "value": "Available",
+                  "display_value": "Available"
+               },
+               {
+                  "value": "Broken",
+                  "display_value": "Broken"
+               },
+               {
+                  "value": "Reserved",
+                  "display_value": "Reserved"
+               },
+               {
+                  "value": "Tested",
+                  "display_value": "Tested"
+               },
+               {
+                  "value": "Lit",
+                  "display_value": "Lit"
+               },
+               {
+                  "value": "Used",
+                  "display_value": "Used"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "name": "mywcom.previewCableStyles",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "insert": {
+            "color": "#0000FF",
+            "opacity": 0.75,
+            "weight": 8
+         },
+         "keep": {
+            "color": "#8888FF",
+            "opacity": 0.75,
+            "weight": 8
+         },
+         "delete": {
+            "color": "#BBBBBB",
+            "opacity": 0.9,
+            "weight": 8
+         },
+         "affected_structure": {
+            "text": {
+               "vOffset": 0,
+               "fontStyle": "normal",
+               "worldSize": false,
+               "halign": "left",
+               "valign": "top",
+               "hOffset": 0,
+               "fontFamily": "Arial",
+               "fieldName": "disconnects",
+               "bcolor": "#ffffff",
+               "fontColor": "#000000",
+               "fontSize": 10,
+               "border": 1,
+               "zIndexOffset": 2000
+            },
+            "icon": {
+               "iconUrl": "images/circle-empty2.svg",
+               "iconAnchor": [
+                  18,
+                  18
+               ],
+               "orientiation": 0
+            }
+         }
+      }
+   },
+   {
+      "name": "mywcom.proposedObjectStyle",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "color": "#ffa500"
+      }
+   },
+   {
+      "name": "mywcom.routes",
+      "type": "JSON",
+      "server_only": false,
+      "value": {}
+   },
+   {
+      "name": "mywcom.specs",
+      "type": "JSON",
+      "server_only": false,
+      "value": {}
+   },
+   {
+      "name": "mywcom.stateManager",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "enabled": false
+      }
+   },
+   {
+      "name": "mywcom.strand_info",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "fiber": {
+            "title": "[status] : [priority]",
+            "fields": [
+               {
+                  "name": "status",
+                  "external_name": "Status",
+                  "type": "string()",
+                  "enum": "strand_status"
+               },
+               {
+                  "name": "priority",
+                  "external_name": "Priority",
+                  "type": "string()",
+                  "enum": "strand_priority"
+               }
+            ]
+         },
+         "copper": {
+            "title": "[status] : [priority]",
+            "fields": [
+               {
+                  "name": "status",
+                  "external_name": "Status",
+                  "type": "string()",
+                  "enum": "strand_status"
+               },
+               {
+                  "name": "priority",
+                  "external_name": "Priority",
+                  "type": "string()",
+                  "enum": "strand_priority"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "name": "mywcom.strand_info_enum",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "strand_priority": {
+            "name": "strand_priority",
+            "description": "Strand Priority",
+            "values": [
+               {
+                  "value": "High",
+                  "display_value": "High"
+               },
+               {
+                  "value": "Medium",
+                  "display_value": "Medium"
+               },
+               {
+                  "value": "Low",
+                  "display_value": "Low"
+               },
+               {
+                  "value": "Critical",
+                  "display_value": "Critical"
+               },
+               {
+                  "value": "Spare",
+                  "display_value": "Spare"
+               },
+               {
+                  "value": "Unknown",
+                  "display_value": "Unknown"
+               }
+            ]
+         },
+         "strand_status": {
+            "name": "strand_status",
+            "description": "Strand Status",
+            "values": [
+               {
+                  "value": "Available",
+                  "display_value": "Available"
+               },
+               {
+                  "value": "Broken",
+                  "display_value": "Broken"
+               },
+               {
+                  "value": "Reserved",
+                  "display_value": "Reserved"
+               },
+               {
+                  "value": "Tested",
+                  "display_value": "Tested"
+               },
+               {
+                  "value": "Lit",
+                  "display_value": "Lit"
+               },
+               {
+                  "value": "Used",
+                  "display_value": "Used"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "name": "mywcom.strandLayout",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "defaultLengthUnit": "ft",
+         "enabled": false,
+         "overhead": {
+            "structures": {},
+            "routes": []
+         },
+         "underground": {
+            "structures": {},
+            "routes": []
+         }
+      }
+   },
+   {
+      "name": "mywcom.structures",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "mywcom_route_junction": {
+            "image": null,
+            "palette": false
+         }
+      }
+   },
+   {
+      "name": "mywcom.systemChangesLimit",
+      "type": "INTEGER",
+      "server_only": false,
+      "value": 1000
+   },
+   {
+      "name": "mywcom.tmf_categories",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "Cable": "Cable",
+         "Circuit": "Circuit",
+         "Conduit": "Conduit",
+         "Equip": "Equipment",
+         "Route": "Route",
+         "Struct": "Structure",
+         "Segment": "Segment"
+      }
+   },
+   {
+      "name": "mywcom.tmf_edit_allowed",
+      "type": "JSON",
+      "server_only": false,
+      "value": [
+         "Circuit"
+      ]
+   },
+   {
+      "name": "mywcom.tmf_edit_allowed_fields",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "Equipment": [
+            "capacityThreshold"
+         ],
+         "Segment": [
+            "capacityThreshold"
+         ]
+      }
+   },
+   {
+      "name": "mywcom.tmf_fields",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "Cable": {
+            "name": "name",
+            "specification": "specification",
+            "directed": "directed",
+            "count": "fiber_count",
+            "laborCosts": "labor_costs",
+            "path": "geometry"
+         },
+         "Circuit": {
+            "name": "name",
+            "inFeature": "in_feature",
+            "inPins": "in_pins",
+            "outFeature": "out_feature",
+            "outPins": "out_pins",
+            "path": "geometry"
+         },
+         "Conduit": {
+            "name": "name",
+            "housing": "housing",
+            "specification": "specification",
+            "rootHousing": "root_housing",
+            "inStructure": "in_structure",
+            "outStructure": "out_structure",
+            "inConduit": "in_conduit",
+            "outConduit": "out_conduit",
+            "conduitRun": "conduit_run",
+            "laborCosts": "labor_costs",
+            "path": "geometry"
+         },
+         "Equipment": {
+            "name": "name",
+            "specification": "specification",
+            "housing": "housing",
+            "rootHousing": "root_housing",
+            "circuits": "circuits",
+            "laborCosts": "labor_costs",
+            "location": "geometry"
+         },
+         "Route": {
+            "inStructure": "in_structure",
+            "outStructure": "out_structure",
+            "length": "length",
+            "laborCosts": "labor_costs",
+            "path": "geometry"
+         },
+         "Structure": {
+            "name": "name",
+            "specification": "specification",
+            "laborCosts": "labor_costs",
+            "location": "geometry"
+         },
+         "Connection": {
+            "inObject": "in_object",
+            "outObject": "out_object",
+            "inSide": "in_side",
+            "outSide": "out_side",
+            "inLow": "in_low",
+            "inHigh": "in_high",
+            "outLow": "out_low",
+            "outHigh": "out_high",
+            "rootHousing": "root_housing"
+         },
+         "Segment": {
+            "cable": "cable",
+            "circuits": "circuits",
+            "directed": "directed",
+            "housing": "housing",
+            "rootHousing": "root_housing"
+         },
+         "Design": {
+            "name": "name",
+            "status": "status"
+         }
+      }
+   },
+   {
+      "name": "mywcom.tmf_tables",
+      "type": "JSON",
+      "server_only": false,
+      "value": {}
+   },
+   {
+      "name": "mywcom.utilizationReport",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "supportedTypes": [
+            "fiber_patch_panel",
+            "fiber_device",
+            "fiber_mux",
+            "fiber_ont",
+            "fiber_olt",
+            "fiber_tap",
+            "fiber_splitter"
+         ],
+         "portAttributes": [
+            "status",
+            "priority"
+         ],
+         "strandAttributes": [
+            "status",
+            "priority"
+         ]
+      }
+   },
+   {
+      "name": "replication.anonymous_downloads",
+      "type": "BOOLEAN",
+      "server_only": false,
+      "value": false
+   },
+   {
+      "name": "replication.auth_options",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "auth_via_os_username": false,
+         "local_session_timeout": null,
+         "on_application_start": false
+      }
+   },
+   {
+      "name": "replication.download_root",
+      "type": "STRING",
+      "server_only": false,
+      "value": "/opt/iqgeo/data/extracts"
+   },
+   {
+      "name": "replication.master_shard_max",
+      "type": "INTEGER",
+      "server_only": false,
+      "value": 1073741824
+   },
+   {
+      "name": "replication.replica_id",
+      "type": "STRING",
+      "server_only": false,
+      "value": "master"
+   },
+   {
+      "name": "replication.replica_id_hwm",
+      "type": "INTEGER",
+      "server_only": false,
+      "value": 0
+   },
+   {
+      "name": "replication.replica_shard_lwm",
+      "type": "INTEGER",
+      "server_only": false,
+      "value": 2147483648
+   },
+   {
+      "name": "replication.sync_root",
+      "type": "STRING",
+      "server_only": false,
+      "value": "/opt/iqgeo/data/sync"
+   },
+   {
+      "name": "replication.sync_urls",
+      "type": "JSON",
+      "server_only": false,
+      "value": [
+         {
+            "name": "default",
+            "url": "http://localhost:80"
+         }
+      ]
+   },
+   {
+      "name": "test_demo_settings",
+      "type": "JSON",
+      "server_only": false,
+      "value": {
+         "name": "test_app",
+         "number": 1,
+         "level": "medium"
+      }
+   }
+]

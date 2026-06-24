@@ -1,0 +1,28 @@
+{
+   "name": "office",
+   "display_name": "Office",
+   "category": "overlay",
+   "code": "of",
+   "datasource": "myworld",
+   "spec": {
+      "rendering": "vector",
+      "tileType": "raster",
+      "isStatic": true,
+      "useImageCanvas": true,
+      "nativeAppMode": "switchable",
+      "render_order_point_offset": 0,
+      "jsClass": null,
+      "extraOptions": null
+   },
+   "transparency": 0,
+   "min_scale": 0,
+   "max_scale": 20,
+   "render_order": 0,
+   "feature_types": [
+      {
+         "name": "office",
+         "field_name": "location",
+         "point_style": "circle:green:4:green"
+      }
+   ]
+}

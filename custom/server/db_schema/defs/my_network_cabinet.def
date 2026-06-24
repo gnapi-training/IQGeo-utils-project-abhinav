@@ -1,0 +1,110 @@
+{
+   "datasource": "myworld",
+   "name": "my_network_cabinet",
+   "external_name": "Network Cabinet",
+   "title": "{cabinet_name}: [id]",
+   "short_description": "Street-side network cabinet",
+   "track_changes": true,
+   "versioned": true,
+   "geom_indexed": true,
+   "editable": {
+      "insert_from_gui": true,
+      "update_from_gui": true,
+      "delete_from_gui": false
+   },
+   "editor_options": {
+      "popup": true
+   },
+   "fields": [
+      {
+         "name": "id",
+         "external_name": "Id",
+         "type": "integer",
+         "key": true,
+         "generator": "sequence"
+      },
+      {
+         "name": "location",
+         "external_name": "Location",
+         "type": "point",
+         "mandatory": "true"
+      },
+      {
+         "name": "cabinet_name",
+         "external_name": "Cabinet Name",
+         "type": "string()",
+         "mandatory": "true"
+      },
+      {
+         "name": "cabinet_type",
+         "external_name": "Cabinet Type",
+         "type": "string()"
+      },
+      {
+         "name": "capacity",
+         "external_name": "Capacity",
+         "type": "integer"
+      },
+      {
+         "name": "manufacturer",
+         "external_name": "Manufacturer",
+         "type": "string()"
+      },
+      {
+         "name": "commissioned_date",
+         "external_name": "Commissioned Date",
+         "type": "date"
+      },
+      {
+         "name": "status",
+         "external_name": "Status",
+         "type": "string()"
+      }
+   ],
+   "groups": [
+      {
+         "name": "general",
+         "fields": [
+            "cabinet_name",
+            "cabinet_type",
+            "id"
+         ],
+         "expanded": true,
+         "visible": "true"
+      },
+      {
+         "name": "specifications",
+         "fields": [
+            "capacity",
+            "manufacturer",
+            "status"
+         ],
+         "expanded": false,
+         "visible": "true"
+      },
+      {
+         "name": "lifecycle",
+         "fields": [
+            "commissioned_date"
+         ],
+         "expanded": false,
+         "visible": "true"
+      }
+   ],
+   "searches": [
+      {
+         "value": "[cabinet_name]",
+         "description": "[cabinet_name]",
+         "lang": "en"
+      }
+   ],
+   "queries": [
+      {
+         "value": "active cabinets",
+         "description": "Active Network Cabinets",
+         "lang": "en",
+         "filter": "[status]='ACTIVE'"
+      }
+   ],
+   "filters": []
+}

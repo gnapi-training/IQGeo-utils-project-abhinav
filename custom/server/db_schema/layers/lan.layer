@@ -1,0 +1,33 @@
+{
+   "name": "lan",
+   "display_name": "Lan",
+   "category": "overlay",
+   "code": "la",
+   "description": "Sample Lan layer",
+   "datasource": "myworld",
+   "spec": {
+      "rendering": "vector",
+      "tileType": "raster",
+      "isStatic": true,
+      "useImageCanvas": true,
+      "nativeAppMode": "switchable",
+      "render_order_point_offset": 0,
+      "jsClass": null,
+      "extraOptions": null
+   },
+   "transparency": 0,
+   "min_scale": 0,
+   "max_scale": 20,
+   "render_order": 0,
+   "feature_types": [
+      {
+         "name": "network_asset",
+         "field_name": "location",
+         "filter": "id",
+         "min_vis": 10,
+         "max_vis": 20,
+         "point_style": "circle:#d0021b:4:#008000",
+         "text_style": "#000000"
+      }
+   ]
+}

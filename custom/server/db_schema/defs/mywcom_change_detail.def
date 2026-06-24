@@ -1,0 +1,71 @@
+{
+   "datasource": "myworld",
+   "name": "mywcom_change_detail",
+   "external_name": "Change Detail",
+   "title": "{display_name}: [id]",
+   "short_description": null,
+   "track_changes": true,
+   "versioned": false,
+   "geom_indexed": true,
+   "editable": {
+      "insert_from_gui": false,
+      "update_from_gui": false,
+      "delete_from_gui": false
+   },
+   "editor_options": null,
+   "fields": [
+      {
+         "name": "id",
+         "external_name": "ID",
+         "type": "integer",
+         "key": true,
+         "generator": "sequence"
+      },
+      {
+         "name": "delta",
+         "external_name": "Design",
+         "type": "reference(design)",
+         "indexed": true
+      },
+      {
+         "name": "change_type",
+         "external_name": "Change Type",
+         "type": "string(32)"
+      },
+      {
+         "name": "change_user",
+         "external_name": "User",
+         "type": "string(32)"
+      },
+      {
+         "name": "change_time",
+         "external_name": "Time",
+         "type": "timestamp"
+      },
+      {
+         "name": "feature",
+         "external_name": "Feature",
+         "type": "reference",
+         "indexed": true
+      },
+      {
+         "name": "feature_title",
+         "external_name": "Feature Title",
+         "type": "string"
+      },
+      {
+         "name": "orig_feature",
+         "external_name": "Original Feature",
+         "type": "string"
+      },
+      {
+         "name": "fields",
+         "external_name": "Fields",
+         "type": "string"
+      }
+   ],
+   "groups": [],
+   "searches": [],
+   "queries": [],
+   "filters": []
+}

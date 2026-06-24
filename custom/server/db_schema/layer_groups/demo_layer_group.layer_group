@@ -1,0 +1,12 @@
+{
+   "name": "demo_layer_group",
+   "display_name": "Demo Layer Group",
+   "description": "",
+   "thumbnail": "",
+   "exclusive": false,
+   "layers": [
+      "office",
+      "demo",
+      "lan"
+   ]
+}

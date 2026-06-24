@@ -1,0 +1,11 @@
+{
+   "name": "mywcom_coax_offset_group",
+   "display_name": "Coax Offset Group",
+   "description": "",
+   "thumbnail": "",
+   "exclusive": false,
+   "layers": [
+      "mywcom_coax_cables_offset",
+      "mywcom_coax_equipment_offset"
+   ]
+}

@@ -1,0 +1,80 @@
+{
+   "datasource": "myworld",
+   "name": "mywcom_copper_slack",
+   "external_name": "Copper Slack",
+   "title": "{display_name}",
+   "short_description": null,
+   "track_changes": true,
+   "versioned": true,
+   "geom_indexed": true,
+   "editable": {
+      "insert_from_gui": false,
+      "update_from_gui": true,
+      "delete_from_gui": true
+   },
+   "editor_options": null,
+   "fields": [
+      {
+         "name": "id",
+         "external_name": "Id",
+         "type": "integer",
+         "key": true,
+         "generator": "sequence"
+      },
+      {
+         "name": "length",
+         "external_name": "Length",
+         "type": "double",
+         "unit": "m",
+         "display_unit": "ft",
+         "unit_scale": "length",
+         "display_format": "1"
+      },
+      {
+         "name": "root_housing",
+         "external_name": "Structure",
+         "type": "reference",
+         "indexed": true
+      },
+      {
+         "name": "housing",
+         "external_name": "Housing",
+         "type": "reference",
+         "indexed": true
+      },
+      {
+         "name": "cable",
+         "external_name": "Cable",
+         "type": "reference",
+         "mandatory": "true",
+         "indexed": true
+      },
+      {
+         "name": "location",
+         "external_name": "Location",
+         "type": "point",
+         "mandatory": "true"
+      },
+      {
+         "name": "circuits",
+         "external_name": "Circuits",
+         "type": "reference_set"
+      },
+      {
+         "name": "design_id",
+         "external_name": "Design IDs",
+         "type": "string()",
+         "read_only": "true"
+      }
+   ],
+   "groups": [],
+   "searches": [],
+   "queries": [
+      {
+         "value": "copper slack",
+         "description": "Copper Slack",
+         "lang": "en"
+      }
+   ],
+   "filters": []
+}

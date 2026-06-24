@@ -1,0 +1,72 @@
+{
+   "datasource": "myworld",
+   "name": "mywcom_line_of_count_section",
+   "external_name": "Line of Count Section",
+   "title": "{display_name}: [id]",
+   "short_description": "[label]",
+   "track_changes": true,
+   "versioned": true,
+   "geom_indexed": true,
+   "editable": {
+      "insert_from_gui": false,
+      "update_from_gui": false,
+      "delete_from_gui": false
+   },
+   "editor_options": null,
+   "fields": [
+      {
+         "name": "id",
+         "external_name": "Id",
+         "type": "integer",
+         "key": true,
+         "generator": "sequence"
+      },
+      {
+         "name": "label",
+         "external_name": "Label",
+         "type": "string()"
+      },
+      {
+         "name": "route",
+         "external_name": "Route",
+         "type": "linestring",
+         "mandatory": "true"
+      },
+      {
+         "name": "line_of_count",
+         "external_name": "Line of Count",
+         "type": "foreign_key(mywcom_line_of_count)",
+         "indexed": true
+      },
+      {
+         "name": "container",
+         "external_name": "Container",
+         "type": "reference()",
+         "indexed": true
+      },
+      {
+         "name": "mapping",
+         "external_name": "Mapping",
+         "type": "string()",
+         "visible": "false"
+      },
+      {
+         "name": "forward",
+         "external_name": "Forward",
+         "type": "boolean",
+         "default": "true",
+         "mandatory": "true",
+         "visible": "false"
+      }
+   ],
+   "groups": [],
+   "searches": [],
+   "queries": [
+      {
+         "value": "line of count section",
+         "description": "Line of Count Section",
+         "lang": "en"
+      }
+   ],
+   "filters": []
+}

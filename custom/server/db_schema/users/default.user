@@ -1,0 +1,25 @@
+{
+   "username": "default",
+   "email": " ",
+   "password": " ",
+   "locked_out": true,
+   "attributes": {},
+   "roles": [
+      "Administrator",
+      "Data Editor",
+      "Demo_ReadWrite"
+   ],
+   "state": {},
+   "bookmarks": {
+      "Home": {
+         "centre": [
+            -67.939453125,
+            40.4469470596005
+         ],
+         "zoom": 3,
+         "private": true,
+         "basemap": "Google"
+      }
+   },
+   "adhoc_queries": {}
+}

@@ -1,0 +1,27 @@
+{
+   "name": "mywcom_coax_equipment",
+   "display_name": "Coax Equipment",
+   "category": "overlay",
+   "code": "mywcom_cxeq",
+   "description": "Coax equipment and closures",
+   "datasource": "myworld",
+   "spec": {
+      "isStatic": false,
+      "extraOptions": {},
+      "nativeAppVector": null,
+      "nativeAppMode": "switchable",
+      "rendering": "vector",
+      "jsClass": ""
+   },
+   "transparency": 0,
+   "min_scale": 16,
+   "max_scale": 22,
+   "control_item_class": "myw.MyWorldLegendLayerControlWidget",
+   "feature_types": [
+      {
+         "name": "mywcom_coax_slack",
+         "field_name": "location",
+         "point_style": "modules/comms/images/features/fiber_slack.svg:12:0"
+      }
+   ]
+}

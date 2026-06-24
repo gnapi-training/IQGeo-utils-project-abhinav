@@ -1,0 +1,13 @@
+{
+   "name": "Bing Aerial",
+   "display_name": "Bing Aerial",
+   "category": "basemap",
+   "description": "Bing imagery",
+   "datasource": "bing",
+   "spec": {
+      "mapType": "Aerial"
+   },
+   "transparency": 0,
+   "min_scale": 0,
+   "max_scale": 20
+}

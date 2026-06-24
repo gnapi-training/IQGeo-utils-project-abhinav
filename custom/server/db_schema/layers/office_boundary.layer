@@ -1,0 +1,29 @@
+{
+   "name": "office_boundary",
+   "display_name": "Office boundary",
+   "category": "overlay",
+   "code": "of2",
+   "datasource": "myworld",
+   "spec": {
+      "rendering": "vector",
+      "tileType": "raster",
+      "isStatic": true,
+      "useImageCanvas": true,
+      "nativeAppMode": "switchable",
+      "render_order_point_offset": 0,
+      "jsClass": null,
+      "extraOptions": null
+   },
+   "transparency": 0,
+   "min_scale": 0,
+   "max_scale": 20,
+   "render_order": 0,
+   "feature_types": [
+      {
+         "name": "office_boundary",
+         "field_name": "boundary",
+         "line_style": "green:2:solid",
+         "fill_style": "green:40"
+      }
+   ]
+}

@@ -1,0 +1,65 @@
+{
+   "datasource": "myworld",
+   "name": "iqgapp_markup_line",
+   "external_name": "Markup Line",
+   "title": "{display_name}: [id]",
+   "short_description": null,
+   "track_changes": true,
+   "versioned": false,
+   "geom_indexed": true,
+   "editable": {
+      "insert_from_gui": false,
+      "update_from_gui": true,
+      "delete_from_gui": true
+   },
+   "editor_options": null,
+   "fields": [
+      {
+         "name": "id",
+         "external_name": "Id",
+         "type": "integer",
+         "key": true,
+         "generator": "sequence",
+         "visible": "false"
+      },
+      {
+         "name": "route",
+         "external_name": "Path",
+         "type": "linestring",
+         "mandatory": "true"
+      },
+      {
+         "name": "line_style",
+         "external_name": "Line Style",
+         "type": "string",
+         "visible": "false"
+      },
+      {
+         "name": "referenced_feature",
+         "external_name": "Referenced Feature",
+         "type": "reference",
+         "editor_class": "myw.SelectionReferenceFieldEditor"
+      },
+      {
+         "name": "owner",
+         "external_name": "Owner",
+         "type": "reference",
+         "visible": "false"
+      }
+   ],
+   "groups": [],
+   "searches": [],
+   "queries": [
+      {
+         "value": "markup line",
+         "description": "Markup Line",
+         "lang": "en"
+      }
+   ],
+   "filters": [
+      {
+         "name": "OwnerIsActive",
+         "value": "{activeDelta} =  [owner]"
+      }
+   ]
+}

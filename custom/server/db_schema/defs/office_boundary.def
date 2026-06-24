@@ -1,0 +1,41 @@
+{
+   "datasource": "myworld",
+   "name": "office_boundary",
+   "external_name": "Office Boundary",
+   "title": "{display_name}: [id]",
+   "short_description": null,
+   "track_changes": true,
+   "versioned": false,
+   "geom_indexed": true,
+   "editable": {
+      "insert_from_gui": true,
+      "update_from_gui": true,
+      "delete_from_gui": true
+   },
+   "editor_options": null,
+   "fields": [
+      {
+         "name": "id",
+         "external_name": "Id",
+         "type": "integer",
+         "key": true,
+         "generator": "sequence"
+      },
+      {
+         "name": "boundary",
+         "external_name": "Boundary",
+         "type": "polygon",
+         "mandatory": "true"
+      }
+   ],
+   "groups": [],
+   "searches": [],
+   "queries": [
+      {
+         "value": "office boundary",
+         "description": "Office Boundary",
+         "lang": "en"
+      }
+   ],
+   "filters": []
+}

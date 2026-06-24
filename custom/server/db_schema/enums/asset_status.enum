@@ -1,0 +1,22 @@
+{
+   "name": "asset_status",
+   "description": "Asset status picklist",
+   "values": [
+      {
+         "value": "Active",
+         "display_value": "Active"
+      },
+      {
+         "value": "Inactive",
+         "display_value": "Inactive"
+      },
+      {
+         "value": "Planned",
+         "display_value": "Planned"
+      },
+      {
+         "value": "Decommissioned",
+         "display_value": "Decommissioned"
+      }
+   ]
+}

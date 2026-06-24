@@ -1,0 +1,15 @@
+{
+   "name": "Google Traffic",
+   "display_name": "Google Traffic",
+   "category": "overlay",
+   "code": "z",
+   "description": "Google Traffic (Google vector basemap only)",
+   "datasource": "google",
+   "spec": {
+      "className": "TrafficLayer"
+   },
+   "thumbnail": "images/layers/layer-traffic.png",
+   "transparency": 0,
+   "min_scale": 10,
+   "max_scale": 20
+}

@@ -1,0 +1,53 @@
+{
+   "datasource": "myworld",
+   "name": "myw_extract_region",
+   "external_name": "Extract Region",
+   "title": "Extract Region: [name]",
+   "short_description": null,
+   "track_changes": true,
+   "versioned": false,
+   "geom_indexed": true,
+   "editable": {
+      "insert_from_gui": true,
+      "update_from_gui": true,
+      "delete_from_gui": true
+   },
+   "editor_options": null,
+   "fields": [
+      {
+         "name": "id",
+         "external_name": "Id",
+         "type": "integer",
+         "key": true,
+         "generator": "sequence"
+      },
+      {
+         "name": "name",
+         "external_name": "Name",
+         "type": "string(50)",
+         "mandatory": "true"
+      },
+      {
+         "name": "the_geom",
+         "external_name": "Boundary",
+         "type": "polygon",
+         "mandatory": "true"
+      }
+   ],
+   "groups": [],
+   "searches": [
+      {
+         "value": "{title}",
+         "description": "{title}",
+         "lang": "en"
+      }
+   ],
+   "queries": [
+      {
+         "value": "extract region",
+         "description": "Extract Region",
+         "lang": "en"
+      }
+   ],
+   "filters": []
+}

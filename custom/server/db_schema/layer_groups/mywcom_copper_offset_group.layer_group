@@ -1,0 +1,11 @@
+{
+   "name": "mywcom_copper_offset_group",
+   "display_name": "Copper Offset Group",
+   "description": "",
+   "thumbnail": "",
+   "exclusive": false,
+   "layers": [
+      "mywcom_copper_cables_offset",
+      "mywcom_copper_equipment_offset"
+   ]
+}

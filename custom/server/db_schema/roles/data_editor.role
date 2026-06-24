@@ -1,0 +1,13 @@
+{
+   "name": "Data Editor",
+   "description": "Edit data, create bookmarks...",
+   "permissions": {
+      "standard": [
+         "addPrivateLayers",
+         "createSharedBookmark",
+         "editFeatures",
+         "editGroups",
+         "modifyLayerList"
+      ]
+   }
+}

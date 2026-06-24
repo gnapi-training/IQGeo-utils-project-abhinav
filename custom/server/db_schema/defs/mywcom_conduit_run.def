@@ -1,0 +1,48 @@
+{
+   "datasource": "myworld",
+   "name": "mywcom_conduit_run",
+   "external_name": "Conduit Run",
+   "title": "{display_name}: [id]",
+   "short_description": null,
+   "track_changes": true,
+   "versioned": true,
+   "geom_indexed": true,
+   "editable": {
+      "insert_from_gui": false,
+      "update_from_gui": false,
+      "delete_from_gui": false
+   },
+   "editor_options": null,
+   "fields": [
+      {
+         "name": "id",
+         "external_name": "Id",
+         "type": "integer",
+         "key": true,
+         "generator": "sequence"
+      },
+      {
+         "name": "path",
+         "external_name": "Path",
+         "type": "linestring",
+         "mandatory": "true"
+      },
+      {
+         "name": "conduits",
+         "external_name": "Conduits",
+         "type": "reference_set",
+         "value": "select()",
+         "read_only": "true"
+      }
+   ],
+   "groups": [],
+   "searches": [],
+   "queries": [
+      {
+         "value": "conduit run",
+         "description": "Conduit Run",
+         "lang": "en"
+      }
+   ],
+   "filters": []
+}

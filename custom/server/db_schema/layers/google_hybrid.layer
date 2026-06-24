@@ -1,0 +1,13 @@
+{
+   "name": "Google Hybrid",
+   "display_name": "Google Hybrid",
+   "category": "basemap",
+   "description": "Google imagery + map",
+   "datasource": "google",
+   "spec": {
+      "mapType": "HYBRID"
+   },
+   "transparency": 0,
+   "min_scale": 0,
+   "max_scale": 20
+}

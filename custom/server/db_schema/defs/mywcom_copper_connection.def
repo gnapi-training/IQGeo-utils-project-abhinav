@@ -1,0 +1,138 @@
+{
+   "datasource": "myworld",
+   "name": "mywcom_copper_connection",
+   "external_name": "Copper Connection",
+   "title": "{display_name}: [id]",
+   "short_description": null,
+   "track_changes": true,
+   "versioned": true,
+   "geom_indexed": true,
+   "editable": {
+      "insert_from_gui": false,
+      "update_from_gui": false,
+      "delete_from_gui": false
+   },
+   "editor_options": null,
+   "fields": [
+      {
+         "name": "id",
+         "external_name": "Id",
+         "type": "integer",
+         "key": true,
+         "generator": "sequence"
+      },
+      {
+         "name": "in_object",
+         "external_name": "In Object",
+         "type": "reference",
+         "indexed": true
+      },
+      {
+         "name": "out_object",
+         "external_name": "Out Object",
+         "type": "reference",
+         "indexed": true
+      },
+      {
+         "name": "in_side",
+         "external_name": "In Side",
+         "type": "string(16)",
+         "mandatory": "true"
+      },
+      {
+         "name": "in_low",
+         "external_name": "In Low",
+         "type": "integer",
+         "mandatory": "true"
+      },
+      {
+         "name": "in_high",
+         "external_name": "In High",
+         "type": "integer",
+         "mandatory": "true"
+      },
+      {
+         "name": "out_side",
+         "external_name": "Out Side",
+         "type": "string(16)",
+         "mandatory": "true"
+      },
+      {
+         "name": "out_low",
+         "external_name": "Out Low",
+         "type": "integer",
+         "mandatory": "true"
+      },
+      {
+         "name": "out_high",
+         "external_name": "Out High",
+         "type": "integer",
+         "mandatory": "true"
+      },
+      {
+         "name": "splice",
+         "external_name": "mywcom_connection_feature_splice_name",
+         "type": "boolean",
+         "indexed": true
+      },
+      {
+         "name": "root_housing",
+         "external_name": "Structure",
+         "type": "reference",
+         "indexed": true
+      },
+      {
+         "name": "housing",
+         "external_name": "Housing",
+         "type": "reference",
+         "indexed": true
+      },
+      {
+         "name": "location",
+         "external_name": "Location",
+         "type": "point",
+         "mandatory": "true"
+      },
+      {
+         "name": "design_id",
+         "external_name": "Design IDs",
+         "type": "string()",
+         "read_only": "true"
+      }
+   ],
+   "groups": [
+      {
+         "name": "Properties",
+         "fields": [
+            "id",
+            "housing",
+            "in_object",
+            "in_side",
+            "in_low",
+            "in_high",
+            "out_object",
+            "out_side",
+            "out_low",
+            "out_high",
+            "splice"
+         ],
+         "expanded": true,
+         "visible": "true"
+      }
+   ],
+   "searches": [],
+   "queries": [
+      {
+         "value": "copper connection",
+         "description": "Copper Connection",
+         "lang": "en"
+      },
+      {
+         "value": "copper splice",
+         "description": "Copper Splice",
+         "lang": "en",
+         "filter": "[splice] = TRUE"
+      }
+   ],
+   "filters": []
+}

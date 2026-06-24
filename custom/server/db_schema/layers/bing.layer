@@ -1,0 +1,13 @@
+{
+   "name": "Bing",
+   "display_name": "Bing",
+   "category": "basemap",
+   "description": "Bing map",
+   "datasource": "bing",
+   "spec": {
+      "mapType": "Road"
+   },
+   "transparency": 0,
+   "min_scale": 0,
+   "max_scale": 20
+}

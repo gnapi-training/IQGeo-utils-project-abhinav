@@ -1,0 +1,11 @@
+{
+   "name": "mywcom_fiber_offset_group",
+   "display_name": "Fiber Offset Group",
+   "description": "",
+   "thumbnail": "",
+   "exclusive": false,
+   "layers": [
+      "mywcom_fiber_cables_offset",
+      "mywcom_fiber_equipment_offset"
+   ]
+}

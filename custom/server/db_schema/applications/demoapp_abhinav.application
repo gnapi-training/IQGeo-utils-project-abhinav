@@ -1,0 +1,20 @@
+{
+   "name": "demoapp_abhinav",
+   "external_name": "DemoApp_abhinav",
+   "description": "demo app for practice",
+   "javascript_file": "modules/custom/js/main.demoplugin.js",
+   "image_url": "http://localhost/bundles/configuration/images/ac7f5ee7dbd956b9bcff.png",
+   "for_online_app": true,
+   "for_native_app": true,
+   "layers": [
+      "Bing",
+      "Bing Aerial",
+      "Google",
+      "Google Hybrid",
+      "Google Sat",
+      "None",
+      "OSM",
+      "demo",
+      "lan"
+   ]
+}

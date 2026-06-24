@@ -1,0 +1,13 @@
+{
+   "name": "Google",
+   "display_name": "Google",
+   "category": "basemap",
+   "description": "Google map",
+   "datasource": "google",
+   "spec": {
+      "mapType": "ROADMAP"
+   },
+   "transparency": 0,
+   "min_scale": 0,
+   "max_scale": 20
+}

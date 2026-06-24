@@ -1,0 +1,65 @@
+{
+   "datasource": "myworld",
+   "name": "note",
+   "external_name": "Note",
+   "title": "Note: [title]",
+   "short_description": null,
+   "track_changes": true,
+   "versioned": false,
+   "geom_indexed": true,
+   "editable": {
+      "insert_from_gui": true,
+      "update_from_gui": true,
+      "delete_from_gui": true
+   },
+   "editor_options": null,
+   "fields": [
+      {
+         "name": "id",
+         "external_name": "Id",
+         "type": "integer",
+         "key": true,
+         "generator": "sequence"
+      },
+      {
+         "name": "title",
+         "external_name": "Title",
+         "type": "string(100)",
+         "mandatory": "true"
+      },
+      {
+         "name": "details",
+         "external_name": "Details",
+         "type": "string(1000)"
+      },
+      {
+         "name": "referenced_feature",
+         "external_name": "Associated object",
+         "type": "reference",
+         "mandatory": "true",
+         "indexed": true
+      },
+      {
+         "name": "myw_geometry_world_name",
+         "external_name": "myw_geometry_world_name",
+         "type": "string(100)",
+         "default": "geo"
+      },
+      {
+         "name": "the_geom",
+         "external_name": "Location",
+         "type": "point",
+         "mandatory": "true"
+      }
+   ],
+   "groups": [],
+   "searches": [],
+   "queries": [
+      {
+         "value": "note",
+         "description": "Note",
+         "lang": "en"
+      }
+   ],
+   "filters": []
+}

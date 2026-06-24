@@ -1,0 +1,124 @@
+{
+   "datasource": "myworld",
+   "name": "network_asset",
+   "external_name": "Network Asset",
+   "title": "{display_name}: [id]",
+   "short_description": null,
+   "track_changes": true,
+   "versioned": false,
+   "geom_indexed": true,
+   "editable": {
+      "insert_from_gui": true,
+      "update_from_gui": true,
+      "delete_from_gui": true
+   },
+   "editor_options": null,
+   "fields": [
+      {
+         "name": "id",
+         "external_name": "Id",
+         "type": "integer",
+         "key": true,
+         "generator": "sequence"
+      },
+      {
+         "name": "location",
+         "external_name": "Location",
+         "type": "point",
+         "mandatory": "true"
+      },
+      {
+         "name": "name",
+         "external_name": "Name",
+         "type": "integer"
+      },
+      {
+         "name": "address",
+         "external_name": "Address",
+         "type": "string(64)"
+      },
+      {
+         "name": "is_set",
+         "external_name": "Is_Set",
+         "type": "boolean"
+      },
+      {
+         "name": "height",
+         "external_name": "Height",
+         "type": "integer"
+      },
+      {
+         "name": "ip_address",
+         "external_name": "IP Address",
+         "type": "integer"
+      },
+      {
+         "name": "serial_number",
+         "external_name": "Serial Number",
+         "type": "integer"
+      },
+      {
+         "name": "port_count",
+         "external_name": " Port Count",
+         "type": "integer"
+      },
+      {
+         "name": "installation_date",
+         "external_name": "Installation Date",
+         "type": "date"
+      },
+      {
+         "name": "is_active",
+         "external_name": "Is Active  ",
+         "type": "string(16)",
+         "enum": "asset_status"
+      }
+   ],
+   "groups": [
+      {
+         "name": "Default",
+         "fields": [
+            "id",
+            "name",
+            "address",
+            "is_set",
+            "height"
+         ],
+         "expanded": true,
+         "visible": "true"
+      },
+      {
+         "name": "Group 2",
+         "fields": [
+            "installation_date",
+            "ip_address",
+            "is_active",
+            "port_count",
+            "serial_number"
+         ],
+         "expanded": true,
+         "visible": "true"
+      }
+   ],
+   "searches": [
+      {
+         "value": "name",
+         "description": " [name]",
+         "lang": "en"
+      }
+   ],
+   "queries": [
+      {
+         "value": "network asset",
+         "description": "Network Asset",
+         "lang": "en",
+         "filter": " [height] >= 3"
+      }
+   ],
+   "filters": [
+      {
+         "name": "id",
+         "value": " [id] <> null"
+      }
+   ]
+}

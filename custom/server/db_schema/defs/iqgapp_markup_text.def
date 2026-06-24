@@ -1,0 +1,89 @@
+{
+   "datasource": "myworld",
+   "name": "iqgapp_markup_text",
+   "external_name": "Markup Text",
+   "title": "{display_name}: [id]",
+   "short_description": null,
+   "track_changes": true,
+   "versioned": false,
+   "geom_indexed": true,
+   "editable": {
+      "insert_from_gui": false,
+      "update_from_gui": true,
+      "delete_from_gui": true
+   },
+   "editor_options": null,
+   "fields": [
+      {
+         "name": "id",
+         "external_name": "Id",
+         "type": "integer",
+         "key": true,
+         "generator": "sequence",
+         "visible": "false"
+      },
+      {
+         "name": "location",
+         "external_name": "Location",
+         "type": "point",
+         "mandatory": "true"
+      },
+      {
+         "name": "text_style",
+         "external_name": "Text Style",
+         "type": "string",
+         "visible": "false"
+      },
+      {
+         "name": "text",
+         "external_name": "Text",
+         "type": "string"
+      },
+      {
+         "name": "myw_orientation_location",
+         "external_name": "orientation_field_name",
+         "type": "double",
+         "visible": "false"
+      },
+      {
+         "name": "offset_width",
+         "external_name": "Offset Width",
+         "type": "string",
+         "visible": "false"
+      },
+      {
+         "name": "referenced_feature",
+         "external_name": "Referenced Feature",
+         "type": "reference",
+         "editor_class": "myw.SelectionReferenceFieldEditor"
+      },
+      {
+         "name": "owner",
+         "external_name": "Owner",
+         "type": "reference",
+         "visible": "false"
+      },
+      {
+         "name": "leaderline",
+         "external_name": "Leaderline",
+         "type": "boolean",
+         "default": "false",
+         "mandatory": "true"
+      }
+   ],
+   "groups": [],
+   "searches": [],
+   "queries": [
+      {
+         "value": "markup text",
+         "description": "Markup Text",
+         "lang": "en"
+      }
+   ],
+   "filters": [
+      {
+         "name": "OwnerIsActive",
+         "value": "{activeDelta} =  [owner]"
+      }
+   ]
+}

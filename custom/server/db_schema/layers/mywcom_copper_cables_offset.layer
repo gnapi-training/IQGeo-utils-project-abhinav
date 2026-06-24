@@ -1,0 +1,18 @@
+{
+   "name": "mywcom_copper_cables_offset",
+   "display_name": "Copper Cables Offset",
+   "category": "overlay",
+   "code": "mywcom_cpco",
+   "datasource": "myworld",
+   "spec": {
+      "isStatic": false,
+      "extraOptions": {},
+      "nativeAppVector": null,
+      "nativeAppMode": "switchable",
+      "rendering": "vector",
+      "jsClass": ""
+   },
+   "transparency": 0,
+   "min_scale": 14,
+   "max_scale": 22
+}

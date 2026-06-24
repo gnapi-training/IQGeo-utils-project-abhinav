@@ -1,0 +1,14 @@
+{
+   "username": "admin",
+   "email": " ",
+   "password": "b34ed43434bf57ebedb84b4714d5c669",
+   "locked_out": false,
+   "attributes": {},
+   "roles": [
+      "Administrator",
+      "Demo_ReadWrite"
+   ],
+   "state": {},
+   "bookmarks": {},
+   "adhoc_queries": {}
+}

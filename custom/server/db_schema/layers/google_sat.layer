@@ -1,0 +1,13 @@
+{
+   "name": "Google Sat",
+   "display_name": "Google Sat",
+   "category": "basemap",
+   "description": "Google imagery",
+   "datasource": "google",
+   "spec": {
+      "mapType": "SATELLITE"
+   },
+   "transparency": 0,
+   "min_scale": 0,
+   "max_scale": 20
+}

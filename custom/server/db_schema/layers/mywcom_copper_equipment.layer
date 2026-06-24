@@ -1,0 +1,27 @@
+{
+   "name": "mywcom_copper_equipment",
+   "display_name": "Copper Equipment",
+   "category": "overlay",
+   "code": "mywcom_cueq",
+   "description": "Copper equipment and closures",
+   "datasource": "myworld",
+   "spec": {
+      "isStatic": false,
+      "extraOptions": {},
+      "nativeAppVector": null,
+      "nativeAppMode": "switchable",
+      "rendering": "vector",
+      "jsClass": ""
+   },
+   "transparency": 0,
+   "min_scale": 16,
+   "max_scale": 22,
+   "control_item_class": "myw.MyWorldLegendLayerControlWidget",
+   "feature_types": [
+      {
+         "name": "mywcom_copper_slack",
+         "field_name": "location",
+         "point_style": "modules/comms/images/features/copper/copper_slack.svg:12:0"
+      }
+   ]
+}

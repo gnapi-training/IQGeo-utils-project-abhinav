@@ -13,6 +13,8 @@ node_modules
 
 # START SECTION Product modules
 /comms
+/groups
+/workflow_manager
 /dev_tools
 # END SECTION
 
